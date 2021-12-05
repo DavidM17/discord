@@ -1,0 +1,26 @@
+.menu-container {
+  display: flex;
+  height: 100%;
+  width: 600px;
+  background-color: rgb(36, 35, 35);
+  color: white;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(36, 35, 35);
+}
+
+.bg-dark {
+  background-color: rgb(36, 35, 35);
+}
+
+.icons-menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(19, 18, 18);
+  width: 120px;
+}

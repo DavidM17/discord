@@ -1,0 +1,20 @@
+.section-tab {
+  display: flex;
+  max-width: 100%;
+  padding: 20px 30px 20px 30px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(107, 107, 107);
+}
+
+.section-tab:hover {
+  background-color: rgb(48, 48, 48);
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  font-size: 14px;
+}

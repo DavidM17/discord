@@ -1,0 +1,46 @@
+.icon-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  background-color: transparent;
+}
+
+.active-icon {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 30px;
+  right: -10px;
+  border-radius: 18px;
+  transform: rotate(45deg);
+  background-color: rgb(19, 18, 18);
+  transition: 0.2s;
+}
+
+.hide-icon {
+  transform: translateX(-30px);
+}
+
+.icon {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  border-radius: 50%;
+  background-color: rgba(39, 38, 38, 0.555);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.icon:hover, .active-icon-tab {
+  background-color: rgb(48, 48, 48);
+}
+
+.icon-image {
+  width: 20px;
+  height: 20px;
+}
+
